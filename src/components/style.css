@@ -1,0 +1,46 @@
+
+.father{
+    min-height: 90.5vh;
+}
+.parentContainer{
+width: 100vw; 
+padding: 0.5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Input-wrapper{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.Input-wrapper input{
+    border-radius: 4%;
+    border: 0;
+    background-color: #ede7fe;
+    padding: 0.6rem;
+    width: 18rem;
+    margin: 0.5rem;
+}
+.Input-wrapper button{
+    border-radius: 40%;
+    padding: 0rem 0.7rem;
+}
+@media only screen and (max-width:700px) {
+    .parentContainer{
+        width: 100%;
+    }
+    .Input-wrapper{
+        width: 50%;
+    }
+    .Input-wrapper input{
+        padding: 0.5rem;
+        width: 10rem;
+    margin: 0 0.2rem;
+    }
+    .Input-wrapper button{
+        border-radius: 40%;
+        padding: 0.5rem 0.5rem;
+    }
+}

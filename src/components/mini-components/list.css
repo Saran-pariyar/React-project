@@ -1,0 +1,31 @@
+.wrapper{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    min-width: 30%;
+    justify-content: space-between;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    border-radius: 4%;
+    border: 1px solid #ffff;
+    color: #ffff;
+}
+.item p{
+    margin: 0;
+}
+.item button{
+    border-radius: 40%;
+    outline: none;
+}
+@media only screen and (max-width:700px) {
+
+.item{
+    min-width: 80%;
+}
+
+}
